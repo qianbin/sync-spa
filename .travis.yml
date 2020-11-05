@@ -1,6 +1,5 @@
 language: node_js
-node_js:
-  "node"
+node_js: "10"
 script:
   - git clone https://$GH_TOKEN@github.com/vechain/sync2.git
   - cd sync2
